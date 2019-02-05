@@ -1,0 +1,33 @@
+.piano{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.piano > div {
+    width: 150px;
+    margin: 10px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    font-size: 50px;
+    background-color: #82b1ff;
+    
+}
+.piano > div:active {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #2962ff;
+}
+.channel {
+    border: 5px solid #424242;
+    width: 300px;
+    height: 300px;
+    margin:15px;
+}
+.channels{
+    display: flex;
+}
+.container > button{
+    display: block;
+    width: 120px;
+    margin-left: 20%;
+    margin-top: 40px;
+}
